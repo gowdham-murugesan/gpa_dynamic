@@ -72,6 +72,8 @@ var options = [
   function Regulation()
   {
       removeID("subjects");
+      removeID("table");
+      document.getElementById("gpa").innerHTML = "";
       removeOptions(regulation);
       semesterd.style.display = "none";
       departmentd.style.display = "none";
@@ -103,6 +105,8 @@ var options = [
   function Semester()
   {
       removeID("subjects");
+      removeID("table");
+      document.getElementById("gpa").innerHTML = "";
       removeOptions(semester);
       departmentd.style.display = "none";
       document.getElementById("calculate-button").style.display = "none";
@@ -135,6 +139,8 @@ var options = [
   function Department()
   {
       removeID("subjects");
+      removeID("table");
+      document.getElementById("gpa").innerHTML = "";
       removeOptions(department);
       document.getElementById("calculate-button").style.display = "none";
       Sem = parseInt(semester.value);
@@ -165,6 +171,8 @@ var options = [
   function Subject()
   {
     removeID("subjects");
+    removeID("table");
+    document.getElementById("gpa").innerHTML = "";
     Dept = department.value;
     getSub = list
     .filter(function(i) {
@@ -226,6 +234,7 @@ var options = [
 
 function GPA(){
   removeID("table");
+  document.getElementById("gpa").innerHTML = "";
   sumCredit = 0, sumGPA = 0;
   var selects = document.getElementsByTagName("select");
   var results = [];
@@ -339,4 +348,14 @@ tbody.appendChild(newRow2);
 
 // Append the table to the document
 tablediv.appendChild(table);
+}
+
+
+//Facebook
+
+if(screen.width < 600) {
+  document.getElementById("laptopscreen").style.display = "none";
+}
+else {
+  document.getElementById("phonescreen").style.display = "none";
 }

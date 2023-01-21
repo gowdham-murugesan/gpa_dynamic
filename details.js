@@ -23,9 +23,9 @@ var list = [
     { college: "sjit", reg: 2021, sem: 2, dept: "ECE", code: "PH3254", name: "Physics for Electronics Engineering", credit: 3 },
     { college: "sjit", reg: 2021, sem: 2, dept: "ECE", code: "BE3254", name: "Basic Electrical and Instrumentation Engineering", credit: 3 },
     { college: "sjit", reg: 2021, sem: 2, dept: "ECE", code: "GE3251", name: "Engineering Graphics", credit: 4 },
-    { college: "sjce", reg: 2021, sem: 2, dept: "ECE", code: "EC3251", name: "Circuit Analysis", credit: 4 },
-    { college: "sjce", reg: 2021, sem: 2, dept: "ECE", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
-    { college: "sjce", reg: 2021, sem: 2, dept: "ECE", code: "EC3271", name: "Circuit Analysis Laboratory", credit: 1 },
+    { college: "sjit", reg: 2021, sem: 2, dept: "ECE", code: "EC3251", name: "Circuit Analysis", credit: 4 },
+    { college: "sjit", reg: 2021, sem: 2, dept: "ECE", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
+    { college: "sjit", reg: 2021, sem: 2, dept: "ECE", code: "EC3271", name: "Circuit Analysis Laboratory", credit: 1 },
   //IT
     { college: "sjit", reg: 2021, sem: 2, dept: "IT", code: "HS3251", name: "Professional English - II", credit: 4 },
     { college: "sjit", reg: 2021, sem: 2, dept: "IT", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
