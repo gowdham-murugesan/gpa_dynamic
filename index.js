@@ -37,7 +37,7 @@ var getClg = list
 
 var totClg = Array.from(new Set(getClg));
 
-console.log(totClg);
+// console.log(totClg);
 
 
 //Option for college
@@ -78,7 +78,7 @@ function Regulation() {
   departmentd.style.display = "none";
   document.getElementById("calculate-button").style.display = "none";
   Clg = college.value;
-  console.log(Clg);
+  // console.log(Clg);
   var getReg = list
     .filter(function (i) {
       return i.college === Clg;
@@ -89,7 +89,7 @@ function Regulation() {
 
   var totReg = Array.from(new Set(getReg));
 
-  console.log(totReg);
+  // console.log(totReg);
   regulationd.style.display = "block";
   for (var j = 0; j < totReg.length; j++) {
     var option = document.createElement("option");
@@ -110,8 +110,8 @@ function Semester() {
   departmentd.style.display = "none";
   document.getElementById("calculate-button").style.display = "none";
   Reg = parseInt(regulation.value);
-  console.log(Clg);
-  console.log(Reg);
+  // console.log(Clg);
+  // console.log(Reg);
   var getSem = list
     .filter(function (i) {
       return i.college === Clg && i.reg === Reg;
@@ -123,7 +123,7 @@ function Semester() {
   var totSem = Array.from(new Set(getSem));
   totSem.sort();
 
-  console.log(totSem);
+  // console.log(totSem);
   semesterd.style.display = "block";
   for (var j = 0; j < totSem.length; j++) {
     var option = document.createElement("option");
@@ -143,7 +143,7 @@ function Department() {
   removeOptions(department);
   document.getElementById("calculate-button").style.display = "none";
   Sem = parseInt(semester.value);
-  console.log(Sem);
+  // console.log(Sem);
   var getDept = list
     .filter(function (i) {
       return i.college === Clg && i.reg === Reg && i.sem === Sem;
@@ -154,7 +154,7 @@ function Department() {
 
   var totDept = Array.from(new Set(getDept));
 
-  console.log(totDept);
+  // console.log(totDept);
   departmentd.style.display = "block";
   for (var j = 0; j < totDept.length; j++) {
     var option = document.createElement("option");
@@ -189,7 +189,7 @@ function Subject() {
       return i.code;
     });
 
-  console.log(getSub);
+  // console.log(getSub);
 
 
   //Credits
@@ -201,7 +201,7 @@ function Subject() {
       return i.credit;
     });
 
-  console.log(getCredit);
+  // console.log(getCredit);
 
 
   //Create subjects
@@ -243,7 +243,7 @@ function GPA() {
   for (var i = 4, j = 0; i < selects.length; i++, j++) {
     var selectedValue = selects[i].value;
     var selectedText = selects[i].options[selects[i].selectedIndex].text;
-    console.log(selectedValue);
+    // console.log(selectedValue);
     if (selectedValue) {
       results.push(Number(selectedValue) * getCredit[j]);
       grade.push(selectedText);
@@ -254,7 +254,7 @@ function GPA() {
     sumGPA += results[i];
     sumCredit += getCredit[i];
   }
-  console.log(sumGPA / sumCredit);
+  // console.log(sumGPA / sumCredit);
   document.getElementById("gpa").innerHTML = "GPA : " + (sumGPA / sumCredit).toFixed(2);
   document.getElementById("gpadiv").style.display = "block";
 
@@ -348,4 +348,30 @@ function GPA() {
 
   // Append the table to the document
   tablediv.appendChild(table);
+}
+
+// disable right click
+document.addEventListener('contextmenu', event => event.preventDefault());
+ 
+document.onkeydown = function (e) {
+
+    // disable F12 key
+    if(e.keyCode == 123) {
+        return false;
+    }
+
+    // disable I key
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+        return false;
+    }
+
+    // disable J key
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        return false;
+    }
+
+    // disable U key
+    if(e.ctrlKey && e.keyCode == 85) {
+        return false;
+    }
 }
