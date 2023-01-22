@@ -264,7 +264,7 @@ function GPA() {
   // console.log(sumGPA / sumCredit);
   document.getElementById("gpa").innerHTML = "GPA : " + (sumGPA / sumCredit).toFixed(2);
   // document.getElementById("gpadiv").style.display = "block";
-  $("#gpadiv").show(1000);
+  $("#gpadiv").fadeIn(2500);
 
 
 
@@ -357,7 +357,7 @@ function GPA() {
   // Append the table to the document
   tablediv.appendChild(table);
   $("#tablediv").hide();
-  $("#tablediv").show(1000);
+  $("#tablediv").show(100);
   $("html, body").animate({ scrollTop: $(document).height() });
 }
 
