@@ -229,6 +229,7 @@ function Subject() {
     container1.appendChild(container);
     $("#selects").hide();
     $("#selects").show(1000);
+    $("html, body").animate({ scrollTop: $(document).height() }, 1000);
   }
   selects.appendChild(container1);
   // document.getElementById("calculate-button").style.display = "block";
