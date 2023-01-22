@@ -90,7 +90,8 @@ function Regulation() {
   var totReg = Array.from(new Set(getReg));
 
   // console.log(totReg);
-  regulationd.style.display = "block";
+  // regulationd.style.display = "block";
+  $("#regulationd").show(500);
   for (var j = 0; j < totReg.length; j++) {
     var option = document.createElement("option");
     option.value = totReg[j];
@@ -124,7 +125,8 @@ function Semester() {
   totSem.sort();
 
   // console.log(totSem);
-  semesterd.style.display = "block";
+  // semesterd.style.display = "block";
+  $("#semesterd").show(500);
   for (var j = 0; j < totSem.length; j++) {
     var option = document.createElement("option");
     option.value = totSem[j];
@@ -155,7 +157,8 @@ function Department() {
   var totDept = Array.from(new Set(getDept));
 
   // console.log(totDept);
-  departmentd.style.display = "block";
+  // departmentd.style.display = "block";
+  $("#departmentd").show(500);
   for (var j = 0; j < totDept.length; j++) {
     var option = document.createElement("option");
     option.value = totDept[j];
@@ -224,9 +227,12 @@ function Subject() {
     container.appendChild(label);
     container.appendChild(select);
     container1.appendChild(container);
+    $("#selects").hide();
+    $("#selects").show(1000);
   }
   selects.appendChild(container1);
-  document.getElementById("calculate-button").style.display = "block";
+  // document.getElementById("calculate-button").style.display = "block";
+  $("#calculate-button").show(1000);
 }
 
 
@@ -256,7 +262,8 @@ function GPA() {
   }
   // console.log(sumGPA / sumCredit);
   document.getElementById("gpa").innerHTML = "GPA : " + (sumGPA / sumCredit).toFixed(2);
-  document.getElementById("gpadiv").style.display = "block";
+  // document.getElementById("gpadiv").style.display = "block";
+  $("#gpadiv").show(1000);
 
 
 
@@ -348,6 +355,8 @@ function GPA() {
 
   // Append the table to the document
   tablediv.appendChild(table);
+  $("#tablediv").hide();
+  $("#tablediv").show(1000);
 }
 
 // disable right click

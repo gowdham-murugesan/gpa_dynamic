@@ -25,6 +25,7 @@ h1 {
 }
 
 body {
+    scroll-behavior: smooth;
     font-family: Arial;
     color: rgb(0, 0, 0) !important;
     text-shadow: 2px 2px 5px white;
