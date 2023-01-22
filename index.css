@@ -4,19 +4,66 @@ form {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.heading p {
+    margin-bottom: 0;
+    font-weight: 700;
+}
 
 body {
     font-family: Arial;
+    color: rgb(0, 0, 0) !important;
+    text-shadow: 2px 2px 5px white;
+    /* text-shadow: 1px 1px 2px black, 0 0 2px blue, 0 0 5px darkblue; */
+}
+
+.total {
+    padding: 1rem;
+}
+
+#gpadiv {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("./celebrations.gif");
+    /* margin: 40px auto !important; */
+    padding: 40px;
+    font-weight: 900;
+    text-align: center;
+    /* text-shadow: 2px 2px 5px white; */
+    /* text-shadow: 2px 2px 5px #0aabea81; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 221, 255), 0 0 5px rgb(139, 81, 0);
 }
 
 .page {
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+    /* background: linear-gradient(150deg, #39ef74, #4600f1 100%); */
+    /* background-image: linear-gradient(to bottom, #fffbd5, #b20a2c); */
+    /* background-image: linear-gradient(to top, #ace1f959 0%, #ace1f9bb 100%); */
+    /* background-image: linear-gradient(to bottom, #d7d2cc 0%, #3043526e 100%); */
+    background: linear-gradient(135deg, #13f0fc13 0%, #0aabea35 100%);
     padding: 1rem;
     border-radius: 0.5rem;
     margin-bottom: 50px;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-  
+
 
 
 /* select */
@@ -29,15 +76,17 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
     cursor: pointer;
+    outline: none;
 }
 
-div#selects label {
-    color: #04AA6D;
-}
 
-select:hover {
+/* div#selects select{
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 42, 0.25);
+} */
+
+/* select:hover {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
-}
+} */
 
 select {
     appearance: none;
@@ -47,10 +96,11 @@ select {
     background-repeat: no-repeat;
     background-position: right 0.7em top 50%;
     background-size: 0.65em auto;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
 
 select:focus {
-    border-color: #007bff;  
+    border-color: #007bff;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
 
@@ -64,27 +114,38 @@ select:hover {
 
 label {
     font-weight: bold;
-  }
-  
-  
+}
+
 
 
 
 
 /* button */
 button {
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    box-shadow: 1px 1px 5px black;
     width: 100%;
-    background-color: #04AA6D;
-    color: white;
+    /* background-color: #04AA6D; */
+    background: linear-gradient(135deg, #13f0fc13 0%, #0aabea35 100%);
+    color: black;
+    text-shadow: 2px 2px 5px white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 30px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-style: italic;
 }
 
 button:hover {
-    background-color: #45a049;
+    outline: none;
+    /* background-color: #45a049; */
+    border: 1px solid black !important;
+
 }
 
 
@@ -97,6 +158,7 @@ th {
 }
 
 table {
+    table-layout: fixed;
     width: 100%;
     overflow-x: scroll;
 }
@@ -109,34 +171,36 @@ td {
 /* footer */
 
 .footer {
+    text-shadow: none;
     text-align: center;
     width: 100%;
-  position: fixed;
-  bottom: 0px;
-  background-color: gray;
-  color: white;
-  padding: 8px;
-  }
+    position: fixed;
+    bottom: 0px;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+}
 
-  .fa {
+.fa {
     padding: 5px;
     font-size: 20px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-  }
+}
 
-  .fa-envelope {
+.fa-envelope {
     background: #dd4b39;
     color: white;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
     background: #007bb5;
     color: white;
-  }
+}
 
-  .fa-facebook {
-    background: #3B5998;
+.fa-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    ;
     color: white;
-  }
+}

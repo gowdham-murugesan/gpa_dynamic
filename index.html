@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPA Calculator</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
     <script src="details.js"></script>
 </head>
-<body>
-    <div class="page container">
-        <div id="colleged" class="form-group">
-            <label for="college">College : </label>
-            <select name="college" id="college" class="form-control" onchange="Regulation()">
-                <option style="display: none">--Choose--</option>
-            </select>
-        </div>
-        <div id="regulationd" class="form-group">
-            <label for="regulation">Regulation : </label>
-            <select name="regulation" id="regulation" class="form-control" onchange="Semester()">
-                <option style="display: none">--Choose--</option>
-            </select>
-        </div>
-        <div id="semesterd" class="form-group">
-            <label for="semester">Semester : </label>
-            <select name="semester" id="semester" class="form-control" onchange="Department()">
-                <option style="display: none">--Choose--</option>
-            </select>
-        </div>
-        <div id="departmentd" class="form-group">
-            <label for="department">Department : </label>
-            <select name="department" id="department" class="form-control" onchange="Subject()">
-                <option style="display: none">--Choose--</option>
-            </select>
-        </div>
-        <div id="selects"></div>
 
-        <button id="calculate-button" onclick="GPA()">Calculate</button>
-        <h1 id="gpa"></h1>
-        <div id="tablediv"></div>
+<body>
+    <div class="total">
+        <div class="heading">
+            <h1>JOSEPHITE's GPA CALCULATOR</h1>
+            <p>Created by <a href="https://gowdham.vercel.app/" target="_blank" style="color: blue;">GOWDHAM M</a></p>
+            <p>CSE - II Year (TECH)</p>
+        </div>
+        <div class="page container">
+            <div id="colleged" class="form-group">
+                <label for="college">College : </label>
+                <select name="college" id="college" class="form-control" onchange="Regulation()">
+                    <option style="display: none">--Choose--</option>
+                </select>
+            </div>
+            <div id="regulationd" class="form-group">
+                <label for="regulation">Regulation : </label>
+                <select name="regulation" id="regulation" class="form-control" onchange="Semester()">
+                    <option style="display: none">--Choose--</option>
+                </select>
+            </div>
+            <div id="semesterd" class="form-group">
+                <label for="semester">Semester : </label>
+                <select name="semester" id="semester" class="form-control" onchange="Department()">
+                    <option style="display: none">--Choose--</option>
+                </select>
+            </div>
+            <div id="departmentd" class="form-group">
+                <label for="department">Department : </label>
+                <select name="department" id="department" class="form-control" onchange="Subject()">
+                    <option style="display: none">--Choose--</option>
+                </select>
+            </div>
+            <div id="selects"></div>
+
+            <button id="calculate-button" onclick="GPA()">CALCULATE</button>
+            <div id="gpadiv">
+                <h1 id="gpa"></h1>
+            </div>
+            <div id="tablediv"></div>
+        </div>
     </div>
 
     <div class="footer" id="footer">
-        <span><span style="font-size: 12px;">Powered by</span> <a href="https://gowdham.vercel.app/" target="_blank" style="color: blue; text-decoration: underline;">Gowdham M</a> | Reach me at <a href="mailto:gowdhammurugesh24@gmail.com" target="_blank" class="fa fa-envelope"></a> <a href="https://www.linkedin.com/in/gowdham-murugesan/" target="_blank" class="fa fa-linkedin"></a> <a href="fb://profile/100008861406990" target="_blank" class="fa fa-facebook" id="phonescreen"></a> <a href="https://www.facebook.com/gowdhammurugesh24/" target="_blank" class="fa fa-facebook" id="laptopscreen"></a></span>
+        <span><span style="font-size: 12px;">Powered by</span> <a href="https://gowdham.vercel.app/" target="_blank"
+                style="color: blue; text-decoration: underline;">Gowdham M</a> | Reach me at <a
+                href="mailto:gowdhammurugesh24@gmail.com" target="_blank" class="fa fa-envelope"></a> <a
+                href="https://www.linkedin.com/in/gowdham-murugesan/" target="_blank" class="fa fa-linkedin"></a> <a
+                href="https://www.instagram.com/gowdhammurugesan/" target="_blank" class="fa fa-instagram"></a></span>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
