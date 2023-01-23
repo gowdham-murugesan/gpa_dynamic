@@ -1,6 +1,6 @@
 //getReg : all including duplicates
 //totReg : all without duplicates
-//Reg : fianl value
+//Reg : final value
 
 var options = [
   { value: 10, text: "O" },
@@ -229,7 +229,7 @@ function Subject() {
     container1.appendChild(container);
     $("#selects").hide();
     $("#selects").show(1000);
-    $("html, body").animate({ scrollTop: $(document).height() });
+    // $("html, body").animate({ scrollTop: $(document).height() });
   }
   selects.appendChild(container1);
   // document.getElementById("calculate-button").style.display = "block";
@@ -247,6 +247,7 @@ function GPA() {
   var results = [];
   var grade = [];
   var gradePoints = [];
+  var flag = 0;
   for (var i = 4, j = 0; i < selects.length; i++, j++) {
     var selectedValue = selects[i].value;
     var selectedText = selects[i].options[selects[i].selectedIndex].text;
@@ -256,13 +257,19 @@ function GPA() {
       grade.push(selectedText);
       gradePoints.push(selectedValue);
     }
+    if(selectedValue==0)
+      flag = 1;
   }
   for (var i = 0; i < getCredit.length; i++) {
     sumGPA += results[i];
     sumCredit += getCredit[i];
   }
   // console.log(sumGPA / sumCredit);
+  var arrear = "(Obtained from all cleared subjects)"
   document.getElementById("gpa").innerHTML = "GPA : " + (sumGPA / sumCredit).toFixed(2);
+  document.getElementById("arrear").innerHTML = "";
+  if(flag)
+    document.getElementById("arrear").innerHTML = arrear;
   // document.getElementById("gpadiv").style.display = "block";
   $("#gpadiv").fadeIn(3000);
 
