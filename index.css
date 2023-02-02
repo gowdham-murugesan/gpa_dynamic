@@ -67,7 +67,9 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.cgpa-page {
+    background: linear-gradient(135deg, #13f0fc9a 0%, #0aabea35 100%);
+}
 
 
 /* select */
@@ -222,4 +224,52 @@ td {
     td, th {
         font-size: 12px;
     }
+  }
+
+  /* button */
+  
+  .wrapper {
+    margin: 16px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    font-weight: bold;
+  }
+  
+  .wrapper span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wrapper:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(135deg, #13f0fc13 0%, #0aabea35 100%);
+    transition: all .35s;
+  }
+  
+  .wrapper:hover{
+    text-decoration: none;
+  }
+  
+  .wrapper:hover:after{
+    width: 100%;
+  }
+
+  .fa-hand-o-right {
+    font-size: 24px;
   }
