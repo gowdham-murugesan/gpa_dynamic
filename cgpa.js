@@ -111,7 +111,8 @@ var options = [
     removeOptions(semester);
     departmentd.style.display = "none";
     document.getElementById("calculate-button").style.display = "none";
-    Reg = parseInt(regulation.value);
+    // Reg = parseInt(regulation.value);
+    Reg = regulation.value;
     // console.log(Clg);
     // console.log(Reg);
     var getSem = list
