@@ -343,14 +343,14 @@ var list = [
 
     //2022 - 2026 Batch
     //SJCE - 1st Sem
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "HS4101", name: "Communicative English", credit: 3 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "MA4102", name: "Engineering Mathematics – I", credit: 4 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "PH4103", name: "Engineering Physics", credit: 3 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "CY4104", name: "Engineering Chemistry", credit: 3 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE4105", name: "Problem Solving and Python Programming", credit: 3 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE4106", name: "Engineering Graphics", credit: 4 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE4107", name: "Python Programming Laboratory", credit: 2 },
-    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "BS4108", name: "Physics and Chemistry Laboratory", credit: 2 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "HS1101", name: "Communicative English", credit: 3 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "MA1102", name: "Engineering Mathematics – I", credit: 4 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "PH1103", name: "Engineering Physics", credit: 3 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "CY1104", name: "Engineering Chemistry", credit: 3 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE1105", name: "Problem Solving and Python Programming", credit: 3 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE1106", name: "Engineering Graphics", credit: 4 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE1107", name: "Python Programming Laboratory", credit: 2 },
+    { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "BS1108", name: "Physics and Chemistry Laboratory", credit: 2 },
 
     //SJIT - 1st Sem
     { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "HS4101", name: "Communicative English", credit: 3 },
