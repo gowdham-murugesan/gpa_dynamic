@@ -353,7 +353,7 @@ var list = [
     { college: "sjce", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "BS1108", name: "Physics and Chemistry Laboratory", credit: 2 },
 
     //SJIT - 1st Sem
-    { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "HS4101", name: "Communicative English", credit: 3 },
+    { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "HS4101", name: "Communicative English", credit: 4 },
     { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "MA4102", name: "Engineering Mathematics – I", credit: 4 },
     { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "PH4103", name: "Engineering Physics", credit: 3 },
     { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "CY4104", name: "Engineering Chemistry", credit: 3 },
