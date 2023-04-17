@@ -48,6 +48,7 @@ body {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 221, 255), 0 0 5px rgb(139, 81, 0);
 }
+
 #gpa {
     white-space: nowrap;
 }
@@ -211,24 +212,33 @@ td {
     color: white;
 }
 
+.fa-instagram1 {
+    width: 24px !important;
+    padding: 2px !important;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 400px) {
     #gpa {
         font-size: 2.5rem;
     }
+
     .footer {
         padding: 8px 0;
     }
-  }
+}
 
-  @media only screen and (max-width: 480px) {
-    td, th {
+@media only screen and (max-width: 480px) {
+
+    td,
+    th {
         font-size: 12px;
     }
-  }
+}
 
-  /* button */
-  
-  .wrapper {
+/* button */
+
+.wrapper {
     margin: 16px;
     display: inline-block;
     width: 200px;
@@ -244,14 +254,14 @@ td {
     position: relative;
     transition: all .35s;
     font-weight: bold;
-  }
-  
-  .wrapper span{
+}
+
+.wrapper span {
     position: relative;
     z-index: 2;
-  }
-  
-  .wrapper:after{
+}
+
+.wrapper:after {
     position: absolute;
     content: "";
     top: 0;
@@ -260,16 +270,16 @@ td {
     height: 100%;
     background: linear-gradient(135deg, #13f0fc13 0%, #0aabea35 100%);
     transition: all .35s;
-  }
-  
-  .wrapper:hover{
-    text-decoration: none;
-  }
-  
-  .wrapper:hover:after{
-    width: 100%;
-  }
+}
 
-  .fa-hand-o-right {
+.wrapper:hover {
+    text-decoration: none;
+}
+
+.wrapper:hover:after {
+    width: 100%;
+}
+
+.fa-hand-o-right {
     font-size: 24px;
-  }
+}
