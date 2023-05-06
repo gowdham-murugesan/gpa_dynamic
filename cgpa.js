@@ -242,6 +242,8 @@ var options = [
   var results = [];
   var grade = [];
   function CGPA() {
+    results = [];
+    grade = [];
     removeID("table");
     document.getElementById("gpa").innerHTML = "";
     document.getElementById("gpadiv").style.display = "none";
