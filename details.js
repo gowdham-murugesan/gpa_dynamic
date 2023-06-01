@@ -523,4 +523,69 @@ var list = [
   { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE4106", name: "Engineering Graphics", credit: 4 },
   { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "GE4107", name: "Python Programming Laboratory", credit: 2 },
   { college: "sjit", reg: "2022 - 2026", sem: 1, dept: "I Year", code: "BS4108", name: "Physics and Chemistry Laboratory", credit: 2 },
+
+  //2020-2024 Batch
+  //SJIT - 1st Sem
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "HS8151", name: "Communicative English", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "MA8151", name: "Engineering Mathematics – I", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "PH8151", name: "Engineering Physics", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "CY8151", name: "Engineering Chemistry", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "GE8151", name: "Problem Solving and Python Programming", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "GE8152", name: "Engineering Graphics", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "GE8161", name: "Problem Solving and Python Programming Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 1, dept: "I Year", code: "BS8161", name: "Physics and Chemistry Laboratory", credit: 2 },
+
+  //SJIT - 2nd Sem
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "HS8251", name: "Technical English", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "MA8251", name: "Engineering Mathematics – II", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "PH8252", name: "Physics for Information Science", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "BE8255", name: "Basic Electrical, Electronics and Measurement Engineering", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "GE8291", name: "Environmental Science and Engineering", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "CS8251", name: "Programming in C", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "GE8261", name: "Engineering Practices Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 2, dept: "CSE", code: "CS8261", name: "C Programming Laboratory", credit: 2 },
+
+  //SJIT - 3rd Sem
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "MA8351", name: "Discrete Mathematics", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "CS8351", name: "Digital Principles and System Design", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "CS8391", name: "Data Structures", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "CS8392", name: "Object Oriented Programming", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "EC8395", name: "Communication Engineering", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "CS8381", name: "Data Structures Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "CS8383", name: "Object Oriented Programming Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "CS8382", name: "Digital Systems Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 3, dept: "CSE", code: "HS8381", name: "Interpersonal Skills/Listening & Speaking", credit: 1 },
+
+  //SJIT - 4th Sem
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "MA8402", name: "Probability and Queueing Theory", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8491", name: "Computer Architecture", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8492", name: "Database Management Systems", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8451", name: "Design and Analysis of Algorithms", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8493", name: "Operating Systems", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8494", name: "Software Engineering", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8481", name: "Database Management Systems Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "CS8461", name: "Operating Systems Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 4, dept: "CSE", code: "HS8461", name: "Advanced Reading and Writing", credit: 1 },
+
+  //SJIT - 5th Sem
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "MA8551", name: "Algebra and Number Theory", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "CS8591", name: "Computer Networks", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "EC8691", name: "Microprocessors and Microcontrollers", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "CS8501", name: "Theory of Computation", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "OCE552", name: "Geographic Information System", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "CS8592", name: "Object Oriented Analysis and Design", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "CS8581", name: "Networks Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "CS8582", name: "Object Oriented Analysis and Design Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 5, dept: "CSE", code: "EC8681", name: "Microprocessors and Microcontrollers Laboratory", credit: 2 },
+
+  //SJIT - 6th Sem
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8651", name: "Internet Programming", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8691", name: "Artificial Intelligence", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8601", name: "Mobile Computing", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8602", name: "Compiler Design", credit: 4 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8603", name: "Distributed Systems", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "IT8076", name: "Software Testing", credit: 3 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8662", name: "Mobile Application Development Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8661", name: "Internet Programming Laboratory", credit: 2 },
+  { college: "sjit", reg: "2020 - 2024", sem: 6, dept: "CSE", code: "CS8611", name: "Mini Project", credit: 1 },
 ];
