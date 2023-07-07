@@ -4,12 +4,12 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "CY3151", name: "Engineering Chemistry", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "GE3151", name: "Problem Solving and Python Programming", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "GE3171", name: "Problem Solving and Python Programming Laboratory", credit: 2 },
-  { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "HS3151", name: "Professional English - I", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "HS3151", name: "Professional English - I", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "MA3151", name: "Matrices and Calculus", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "PH3151", name: "Engineering Physics", credit: 3 },
 
   //SJIT - 2ND SEM CSE
-  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "HS3251", name: "Professional English - II", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "HS3251", name: "Professional English - II", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "PH3256", name: "Physics for Information Science", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "BE3251", name: "Basic Electrical and Electronics Engineering", credit: 3 },
@@ -18,7 +18,7 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "CSE", code: "CS3271", name: "Programming in C Laboratory", credit: 2 },
   //ECE
-  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "HS3251", name: "Professional English - II", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "HS3251", name: "Professional English - II", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "PH3254", name: "Physics for Electronics Engineering", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "BE3254", name: "Basic Electrical and Instrumentation Engineering", credit: 3 },
@@ -27,7 +27,7 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ECE", code: "EC3271", name: "Circuit Analysis Laboratory", credit: 1 },
   //IT
-  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "HS3251", name: "Professional English - II", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "HS3251", name: "Professional English - II", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "PH3256", name: "Physics for Information Science", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "BE3251", name: "Basic Electrical and Electronics Engineering", credit: 3 },
@@ -36,7 +36,7 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "IT", code: "CS3271", name: "Programming in C Laboratory", credit: 2 },
   //ADS
-  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "HS3251", name: "Professional English - II", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "HS3251", name: "Professional English - II", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "PH3256", name: "Physics for Information science", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "BE3251", name: "Basic Electrical and Electronics Engineering", credit: 3 },
@@ -45,7 +45,7 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "ADS", code: "AD3271", name: "Data Structures Design Laboratory", credit: 2 },
   //EEE
-  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "HS3251", name: "Professional English - II", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "HS3251", name: "Professional English - II", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "PH3202", name: "Physics for Electrical Engineering", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "BE3255", name: "Basic Civil and Mechanical Engineering", credit: 3 },
@@ -54,7 +54,7 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "GE3271", name: "Engineering Practices Laboratory", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "EEE", code: "EE3271", name: "Electric Circuit Laboratory", credit: 2 },
   //MECH
-  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "MECH", code: "HS3251", name: "Professional English - II", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "MECH", code: "HS3251", name: "Professional English - II", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "MECH", code: "MA3251", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "MECH", code: "PH3251", name: "Materials Science", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 2, dept: "MECH", code: "BE3251", name: "Basic Electrical and Electronics Engineering", credit: 3 },
