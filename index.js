@@ -274,7 +274,7 @@ function GPA() {
   // document.getElementById("gpadiv").style.display = "block";
   $("#gpadiv").fadeIn(3000);
 
-
+  document.getElementById("contact_reply").style.display = "block";
 
   // Create the table element
   var tablediv = document.getElementById("tablediv");
