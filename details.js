@@ -540,7 +540,7 @@ var list = [
   { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "MA4202", name: "Statistics and Numerical Methods", credit: 4 },
   { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "PH4252", name: "Physics for Electronics Engineering", credit: 3 },
   { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "GE4204", name: "Environmental Science and Engineering", credit: 3 },
-  { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "EE4205", name: "Circuit Analysis", credit: 4 },
+  { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "EE4205", name: "Circuit Analysis", credit: 3 },
   { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "EC4206", name: "Electronic Devices", credit: 3 },
   { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "GE4207", name: "Engineering Practice Laboratory", credit: 2 },
   { college: "sjit", reg: "2022 - 2026", sem: 2, dept: "ECE", code: "EC4208", name: "Circuit and Devices Laboratory", credit: 2 },
