@@ -180,6 +180,56 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 4, dept: "MECH", code: "CE3481", name: "Strength of Materials and  Fluid Machinery Laboratory", credit: 2 },
   { college: "sjit", reg: "2021 - 2025", sem: 4, dept: "MECH", code: "ME3461", name: "Thermal Engineering Laboratory", credit: 2 },
 
+  //SJIT - 5TH SEM CSE
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "CSE", code: "CS3591", name: "Computer Networks", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "CSE", code: "CS3501", name: "Compiler Design", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "CSE", code: "CB3491", name: "Cryptography and Cyber Security", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "CSE", code: "CS3551", name: "Distributed Computing", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "CSE", code: "EL1", name: "Professional Elective I", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "CSE", code: "EL2", name: "Professional Elective II", credit: 3 },
+  //ECE
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EC3501", name: "Wireless Communication", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EC3552", name: "VLSI and Chip Design", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EC3551", name: "Transmission lines and RF Systems", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EL1", name: "Professional Elective I", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EL2", name: "Professional Elective II", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EL3", name: "Professional Elective III", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ECE", code: "EC3561", name: "VLSI Laboratory", credit: 2 },
+  //IT
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "CS3591", name: "Computer Networks", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "IT3501", name: "Full Stack Web Development", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "CS3551", name: "Distributed Computing", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "CS3691", name: "Embedded Systems and IoT", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "EL1", name: "Professional Elective I", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "EL2", name: "Professional Elective II", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "IT", code: "IT3511", name: "Full Stack Web Development Laboratory", credit: 2 },
+  //ADS
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "AD3501", name: "Deep Learning", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "CW3551", name: "Data and Information Security", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "CS3551", name: "Distributed Computing", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "CCS334", name: "Big Data Analytics", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "EL1", name: "Professional Elective I", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "EL2", name: "Professional Elective II", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "AD3511", name: "Deep Learning Laboratory", credit: 2 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "ADS", code: "AD3512", name: "Summer internship", credit: 2 },
+  //EEE
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EE3501", name: "Power System Analysis", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EE3591", name: "Power Electronics", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EE3503", name: "Control Systems", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EL1", name: "Professional Elective I", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EL2", name: "Professional Elective II", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EL3", name: "Professional Elective III", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EE3511", name: "Power Electronics Laboratory", credit: 1.5 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "EEE", code: "EE3512", name: "Control and Instrumentation Laboratory", credit: 2 },
+  //MECH
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "ME3591", name: "Design of Machine Elements", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "ME3592", name: "Metrology and Measurements", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "EL1", name: "Professional Elective I", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "EL2", name: "Professional Elective II", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "EL3", name: "Professional Elective III", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "ME3511", name: "Summer Internship", credit: 1 },
+  { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "ME3581", name: "Metrology and Dynamics Laboratory", credit: 2 },
+
 
 
   //SJCE - 1st Sem
