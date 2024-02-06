@@ -1,4 +1,4 @@
-[
+export const list = [
     //SJIT - 1st SEM
     { college: "sjit", reg: 2021, sem: 1, dept: "I Year", code: "BS3171", name: "Physics and Chemistry Laboratory", credit: 2 },
     { college: "sjit", reg: 2021, sem: 1, dept: "I Year", code: "CY3151", name: "Engineering Chemistry", credit: 3 },
