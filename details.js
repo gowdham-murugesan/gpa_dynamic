@@ -230,6 +230,15 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "ME3511", name: "Summer Internship", credit: 1 },
   { college: "sjit", reg: "2021 - 2025", sem: 5, dept: "MECH", code: "ME3581", name: "Metrology and Dynamics Laboratory", credit: 2 },
 
+  //SJIT - 6TH SEM CSE
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "OBT351", name: "Food, Nutrition and Health", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CS3691", name: "Embedded Systems and IoT", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS355", name: "Neural Networks and Deep Learning", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS356", name: "Object Oriented Software Engineering", credit: 4 },
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS366", name: "Software Testing and Automation", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS370", name: "UI and UX Design", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS374", name: "Web Application Security", credit: 3 },
+
 
 
   //SJCE - 1st Sem
