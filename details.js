@@ -239,7 +239,13 @@ var list = [
   { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS370", name: "UI and UX Design", credit: 3 },
   { college: "sjit", reg: "2021 - 2025", sem: 6, dept: "CSE", code: "CCS374", name: "Web Application Security", credit: 3 },
 
-
+  //SJIT - 7TH SEM CSE
+  { college: "sjit", reg: "2021 - 2025", sem: 7, dept: "CSE", code: "GE3791", name: "Human Values and Ethics", credit: 2 },
+  { college: "sjit", reg: "2021 - 2025", sem: 7, dept: "CSE", code: "CS3711", name: "Summer internship", credit: 2 },
+  { college: "sjit", reg: "2021 - 2025", sem: 7, dept: "CSE", code: "OFD351", name: "Holistic Nutrition", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 7, dept: "CSE", code: "GE3754", name: "Human Resource Management", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 7, dept: "CSE", code: "OME354", name: "Applied Design Thinking", credit: 3 },
+  { college: "sjit", reg: "2021 - 2025", sem: 7, dept: "CSE", code: "OHS352", name: "Project Report Writing", credit: 3 },
 
   //SJCE - 1st Sem
   { college: "sjce", reg: "2021 - 2025", sem: 1, dept: "I Year", code: "HS1101", name: "Communicative English", credit: 3 },
